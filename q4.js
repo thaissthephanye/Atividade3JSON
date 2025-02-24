@@ -3,7 +3,7 @@
 //Um array no JSON é definido por colchetes e os elementos são separados por vírgulas
 //Um array pode conter valores de diferentes tipos, como strings, números, objetos, outros array, etc.
 
-[
+const ArrayJson = [
   {
     nome: "Thais",
     idade: 22,
@@ -16,5 +16,10 @@
   },
 ];
 
-//em um arquivo .js o JSON deve ser envolvido por []
 //dentro deste json exemplo contém arrays
+
+document.getElementById("quest4").addEventListener("click", function () {
+  const jsonFormatado = JSON.stringify(ArrayJson, null, 2);
+
+  document.getElementById("resultado4").textContent = jsonFormatado;
+});

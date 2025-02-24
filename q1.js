@@ -6,22 +6,18 @@
 //Para os valores devem ser utilizadas aspas duplas, com aspas simples não funciona
 //Não pode ter funções dentro do JSON
 
-//No exemplo a seguir é necessário delimitar utilizando [] pois em um arquivo JS o JSON só com {} não funciona
-
-const dadosJSON = [
-  {
-    nome: "Thais",
-    idade: 21,
-    ativo: true,
-    endereco: {
-      rua: "Rua Tal",
-      numero: 111,
-      cidade: "Solânea",
-    },
-    telefones: ["83 99999-4321", "83 1234-5678"],
-    notas: [7.5, 8.0, 9.1],
+const dadosJSON = {
+  nome: "Thais",
+  idade: 21,
+  ativo: true,
+  endereco: {
+    rua: "Rua Tal",
+    numero: 111,
+    cidade: "Solânea",
   },
-];
+  telefones: ["83 99999-4321", "83 1234-5678"],
+  notas: [7.5, 8.0, 9.1],
+};
 
 document.getElementById("quest1").addEventListener("click", function () {
   // Converte o JSON para uma string formatada

@@ -35,6 +35,5 @@ console.log(objetoAss.nome); // Saída: Maria
 console.log(objetoAss.endereco.rua); // Saída: Rua das Flores
 
 function exibirParagrafo() {
-  // Remove a classe "hidden" do parágrafo para exibi-lo
   document.getElementById("paragrafo").classList.remove("hidden");
 }

@@ -13,11 +13,8 @@ function executarCodigo() {
   return jsonString;
 }
 
-// Adiciona o evento de clique ao botão
 document.getElementById("quest3").addEventListener("click", function () {
-  // Executa o código e captura o resultado
   const resultado = executarCodigo();
 
-  // Exibe o resultado no elemento <pre>
   document.getElementById("resultado").textContent = resultado;
 });

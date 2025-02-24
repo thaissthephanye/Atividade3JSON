@@ -1,3 +1,44 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: grid;
+  place-items: center; /* Centraliza horizontal e verticalmente */
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
 .hidden {
-  display: none; /* Oculta o parágrafo inicialmente */
+  display: none;
+}
+.btn-group {
+  margin-bottom: 20px;
+}
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+.mt-3 {
+  margin-top: 1rem;
+}
+pre {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+p {
+  font-size: 1.1em;
+  color: #333;
+}
+h3 {
+  color: #495057;
+  margin-bottom: 20px;
 }
