@@ -20,8 +20,6 @@ const dadosJSON = {
 };
 
 document.getElementById("quest1").addEventListener("click", function () {
-  // Converte o JSON para uma string formatada
   const jsonFormatado = JSON.stringify(dadosJSON, null, 2);
-  // Exibe o JSON no elemento <pre>
   document.getElementById("resultado1").textContent = jsonFormatado;
 });

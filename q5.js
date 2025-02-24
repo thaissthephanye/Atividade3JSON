@@ -24,6 +24,5 @@ const data = {
 console.log(data["name"]); // John
 
 function exibirParagrafo5() {
-  // Remove a classe "hidden" do parágrafo para exibi-lo
   document.getElementById("paragrafo5").classList.remove("hidden");
 }

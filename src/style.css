@@ -3,7 +3,7 @@ html {
   height: 100%;
   margin: 0;
   display: grid;
-  place-items: center; /* Centraliza horizontal e verticalmente */
+  place-items: center;
 }
 
 .btn-group {
